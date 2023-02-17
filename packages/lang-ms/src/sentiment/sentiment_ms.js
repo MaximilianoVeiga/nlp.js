@@ -21,6 +21,12 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-const SentimentId = require('@nlpjs/lang-id');
+const afinn = require('./afinn_ms.json');
+const negations = require('./negations_ms.json');
 
-module.exports = SentimentId;
+module.exports = {
+  afinn,
+  pattern: undefined,
+  senticon: undefined,
+  negations,
+};
