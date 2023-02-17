@@ -1,5 +1,5 @@
 {
-  "name": "node-nlp",
+  "name": "@horizon-rs/node-nlp",
   "version": "4.26.1",
   "description": "Library for NLU (Natural Language Understanding) done in Node.js",
   "author": {
@@ -47,7 +47,7 @@
     "@nlpjs/core-loader": "^4.26.1",
     "@nlpjs/emoji": "^4.26.1",
     "@nlpjs/evaluator": "^4.26.1",
-    "@nlpjs/lang-all": "^4.26.1",
+    "@horizon-rs/lang-all": "^4.26.2",
     "@nlpjs/language": "^4.25.0",
     "@nlpjs/neural": "^4.25.0",
     "@nlpjs/nlg": "^4.26.1",

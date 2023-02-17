@@ -24,7 +24,7 @@
 const {
   SentimentAnalyzer: SentimentAnalyzerBase,
 } = require('@nlpjs/sentiment');
-const { LangAll } = require('@nlpjs/lang-all');
+const { LangAll } = require('@horizon-rs/lang-all');
 const { Nlu } = require('@nlpjs/nlu');
 
 class SentimentAnalyzer extends SentimentAnalyzerBase {

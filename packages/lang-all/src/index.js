@@ -44,7 +44,7 @@ const {
   StemmerBr,
   StopwordsBr,
   TokenizerBr,
-} = require('@nlpjs/lang-br');
+} = require('@horizon-rs/lang-br');
 const {
   LangCa,
   NormalizerCa,

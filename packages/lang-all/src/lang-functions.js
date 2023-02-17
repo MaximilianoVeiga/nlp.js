@@ -1,7 +1,7 @@
 const { Language } = require('@nlpjs/language');
 const langAr = require('@nlpjs/lang-ar');
 const langBn = require('@nlpjs/lang-bn');
-const langBr = require('@nlpjs/lang-br');
+const langBr = require('@horizon-rs/lang-br');
 const langCa = require('@nlpjs/lang-ca');
 const langCs = require('@nlpjs/lang-cs');
 const langDa = require('@nlpjs/lang-da');

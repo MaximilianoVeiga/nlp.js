@@ -27,11 +27,12 @@ const {
   defaultContainer,
   containerBootstrap,
 } = require('@nlpjs/core-loader');
-const LangAll = require('@nlpjs/lang-all');
+const LangAll = require('@horizon-rs/lang-all');
 
 const cultures = {
   ar: 'ar-ae', // Arabic
   bn: 'bn-bd', // Bengali
+  br: 'pt-br', // Brazilian Portuguese
   ca: 'ca-es', // Catalan
   cs: 'cs-cz', // Czech
   da: 'da-dk', // Danish
@@ -106,6 +107,7 @@ NlpUtil.useAlternative = {};
 
 NlpUtil.useNoneFeature = {
   bn: false,
+  br: true,
   el: true,
   en: true,
   hi: false,

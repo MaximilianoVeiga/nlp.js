@@ -22,7 +22,7 @@
  */
 const { LangAr } = require('@nlpjs/lang-ar');
 const { LangBn } = require('@nlpjs/lang-bn');
-const { LangBr } = require('@nlpjs/lang-br');
+const { LangBr } = require('@horizon-rs/lang-br');
 const { LangCa } = require('@nlpjs/lang-ca');
 const { LangCs } = require('@nlpjs/lang-cs');
 const { LangDa } = require('@nlpjs/lang-da');

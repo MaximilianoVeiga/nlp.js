@@ -1,6 +1,6 @@
 {
-  "name": "@nlpjs/lang-br",
-  "version": "4.26.1",
+  "name": "@horizon-rs/lang-br",
+  "version": "4.26.2",
   "description": "Core",
   "author": {
     "email": "maximiliano.neto@thehorizon.dev",

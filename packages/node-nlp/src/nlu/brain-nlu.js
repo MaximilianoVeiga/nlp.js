@@ -22,7 +22,7 @@
  */
 
 const { containerBootstrap } = require('@nlpjs/core-loader');
-const { LangAll } = require('@nlpjs/lang-all');
+const { LangAll } = require('@horizon-rs/lang-all');
 const { NluNeural } = require('@nlpjs/nlu');
 
 class BrainNLU {
