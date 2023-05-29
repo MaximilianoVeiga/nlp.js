@@ -1,6 +1,6 @@
 {
   "name": "@horizon-rs/lang-all",
-  "version": "4.26.3",
+  "version": "4.27.1",
   "description": "Core",
   "author": {
     "email": "opensource@axa.com",
@@ -28,7 +28,7 @@
     "@nlpjs/core": "^4.26.1",
     "@nlpjs/lang-ar": "^4.26.1",
     "@nlpjs/lang-bn": "^4.26.1",
-    "@horizon-rs/lang-br": "^4.26.4",
+    "@horizon-rs/lang-br": "^4.27.1",
     "@nlpjs/lang-ca": "^4.26.1",
     "@nlpjs/lang-cs": "^4.26.1",
     "@nlpjs/lang-da": "^4.26.1",
@@ -67,7 +67,7 @@
     "@nlpjs/lang-tr": "^4.26.1",
     "@nlpjs/lang-uk": "^4.26.1",
     "@nlpjs/lang-zh": "^4.26.1",
-    "@nlpjs/language": "^4.25.0"
+    "@horizon-rs/language": "^4.27.1"
   },
   "gitHead": "cc4249fa994c58d220e6f10a6c94fdad05df32fd"
 }

@@ -21,7 +21,7 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-const { Language } = require('@nlpjs/language');
+const { Language } = require('@horizon-rs/language');
 
 module.exports = {
   Language,

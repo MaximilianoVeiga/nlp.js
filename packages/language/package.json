@@ -1,6 +1,6 @@
 {
   "name": "@horizon-rs/language",
-  "version": "4.25.0",
+  "version": "4.27.1",
   "description": "Language guesser",
   "author": {
     "email": "opensource@axa.com",

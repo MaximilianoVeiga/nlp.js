@@ -1,4 +1,4 @@
-const { Language } = require('@nlpjs/language');
+const { Language } = require('@horizon-rs/language');
 const langAr = require('@nlpjs/lang-ar');
 const langBn = require('@nlpjs/lang-bn');
 const langBr = require('@horizon-rs/lang-br');
