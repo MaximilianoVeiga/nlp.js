@@ -376,19 +376,19 @@ module.exports = {
   StopwordsAr,
   TokenizerAr,
 
-  LangBr,
-  NormalizerBr,
-  SentimentBr,
-  StemmerBr,
-  StopwordsBr,
-  TokenizerBr,
-
   LangBn,
   NormalizerBn,
   SentimentBn,
   StemmerBn,
   StopwordsBn,
   TokenizerBn,
+
+  LangBr,
+  NormalizerBr,
+  SentimentBr,
+  StemmerBr,
+  StopwordsBr,
+  TokenizerBr,
 
   LangCa,
   NormalizerCa,

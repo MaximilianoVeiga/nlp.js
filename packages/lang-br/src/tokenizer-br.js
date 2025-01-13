@@ -31,7 +31,8 @@ class TokenizerBr extends Tokenizer {
   innerTokenize(text) {
     return text
       .split(/[\s,.!?;:([\]'"¡¿)/]+|[-'](?=[a-zA-Z])/)
-      .filter((x) => x);
+      .filter((x) => x)
+      .map((token) => token.toLowerCase());
   }
 }
 

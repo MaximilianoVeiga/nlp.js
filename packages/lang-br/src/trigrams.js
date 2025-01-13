@@ -23,6 +23,8 @@
 
 function registerTrigrams(container) {
   const language = container.get('Language');
+  if (!language) return;
+
   if (language) {
     language.addModel(
       'Latin',

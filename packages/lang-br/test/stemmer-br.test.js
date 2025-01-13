@@ -43,5 +43,29 @@ describe('Stemmer', () => {
       const actual = stemmer.stem(tokens);
       expect(actual).toEqual(expected);
     });
+
+    test('Should stem "correndo rapidamente"', () => {
+      const input = 'correndo rapidamente';
+      const expected = ['corr', 'rapid'];
+      const tokens = tokenizer.tokenize(normalizer.normalize(input));
+      const actual = stemmer.stem(tokens);
+      expect(actual).toEqual(expected);
+    });
+
+    test('Should stem "felizmente, ele conseguiu"', () => {
+      const input = 'felizmente, ele conseguiu';
+      const expected = ['feliz', 'ele', 'consegu'];
+      const tokens = tokenizer.tokenize(normalizer.normalize(input));
+      const actual = stemmer.stem(tokens);
+      expect(actual).toEqual(expected);
+    });
+
+    test('Should stem "as crianças estão brincando"', () => {
+      const input = 'as crianças estão brincando';
+      const expected = ['as', 'crianc', 'esta', 'brinc'];
+      const tokens = tokenizer.tokenize(normalizer.normalize(input));
+      const actual = stemmer.stem(tokens);
+      expect(actual).toEqual(expected);
+    });
   });
 });

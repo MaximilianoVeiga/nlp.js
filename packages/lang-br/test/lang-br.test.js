@@ -38,5 +38,27 @@ describe('Language Brazilian Portuguese', () => {
       const normalizer = instance.get('normalizer-br');
       expect(normalizer.constructor.name).toEqual('NormalizerBr');
     });
+
+    test('Should tokenize and stem a sentence', () => {
+      const instance = new Container();
+      instance.use(LangBr);
+      const tokenizer = instance.get('tokenizer-br');
+      const stemmer = instance.get('stemmer-br');
+      const sentence = 'As crianças estão brincando no parque';
+      const tokens = tokenizer.tokenize(sentence);
+      const stems = stemmer.stem(tokens);
+      expect(stems).toEqual(['as', 'crianc', 'estã', 'brinc', 'no', 'parqu']);
+    });
+
+    test('Should normalize and tokenize a sentence', () => {
+      const instance = new Container();
+      instance.use(LangBr);
+      const normalizer = instance.get('normalizer-br');
+      const tokenizer = instance.get('tokenizer-br');
+      const sentence = 'Olá, como você está?';
+      const normalized = normalizer.normalize(sentence);
+      const tokens = tokenizer.tokenize(normalized);
+      expect(tokens).toEqual(['ola', 'como', 'voce', 'esta']);
+    });
   });
 });

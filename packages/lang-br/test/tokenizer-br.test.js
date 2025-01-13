@@ -39,12 +39,33 @@ describe('Tokenizer', () => {
       const expected = [
         'disse',
         'me',
-        'DISSE',
-        'ME',
+        'disse',
+        'me',
         'covid-19',
-        'COVID-19',
+        'covid-19',
         'covid19',
       ];
+      const actual = tokenizer.tokenize(input);
+      expect(actual).toEqual(expected);
+    });
+
+    test('Should tokenize "Olá, como você está?"', () => {
+      const input = 'Olá, como você está?';
+      const expected = ['olá', 'como', 'você', 'está'];
+      const actual = tokenizer.tokenize(input);
+      expect(actual).toEqual(expected);
+    });
+
+    test('Should tokenize "Eu estou bem, obrigado!"', () => {
+      const input = 'Eu estou bem, obrigado!';
+      const expected = ['eu', 'estou', 'bem', 'obrigado'];
+      const actual = tokenizer.tokenize(input);
+      expect(actual).toEqual(expected);
+    });
+
+    test('Should tokenize "Vamos testar com números 123 e símbolos #@$%"', () => {
+      const input = 'Vamos testar com números 123 e símbolos #@$%';
+      const expected = ['vamos', 'testar', 'com', 'números', '123', 'e', 'símbolos', '#@$%'];
       const actual = tokenizer.tokenize(input);
       expect(actual).toEqual(expected);
     });
